@@ -1,0 +1,8 @@
+function createPhoneNumber(numbers){
+let numberOne = ("("+numbers[0]+numbers[1]+numbers[2]+")");
+
+let numberTwo = (" "+numbers[3]+numbers[4]+numbers[5]);
+
+let numberThree = ("-"+numbers[6]+numbers[7]+numbers[8]+numbers[9]);
+return numberOne+numberTwo+numberThree;
+}
